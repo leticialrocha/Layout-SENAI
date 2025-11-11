@@ -73,6 +73,6 @@ JavaScript (Vanilla)
 
 SheetJS (biblioteca XLSX.js)
 
-
+_
 Made by: Letícia de Almeida Rocha
 ## ♡‧₊ ୨ৎ
