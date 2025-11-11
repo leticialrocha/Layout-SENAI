@@ -59,7 +59,7 @@ A planilha deve conter, no mínimo, uma coluna denominada Nome do Aluno, podendo
 ## Acesso ao Projeto
 
 Você pode acessar o site online aqui:
-🔗 https://leticialrocha.github.io/Layout-SENAI
+🔗 https://leticialrocha.github.io/Front-ActiveDirectoryAutomation
 
 ## Tecnologias Utilizadas
 
