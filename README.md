@@ -5,17 +5,33 @@ Este é um projeto simples desenvolvido com HTML, CSS e JavaScript que permite o
 
 ## Funcionalidades
 
-Permite importar uma planilha (.xlsx ou .csv) com dados dos alunos.
+Importação de arquivos .xlsx ou .csv contendo dados de alunos.
 
-Lê e processa os dados automaticamente.
+Leitura e processamento automático das planilhas utilizando FileReader e SheetJS (XLSX.js).
 
-Exibe os alunos importados em uma lista organizada.
+Validação de dados para detecção de campos vazios e registros duplicados.
 
-Valida os dados da planilha (evita campos vazios e duplicados).
+Renderização dinâmica da lista de alunos no DOM.
 
-Permite adicionar manualmente alunos adicionais, se necessário.
+Inserção manual adicional via formulário controlado por eventos JavaScript.
 
-Interface simples, amigável e responsiva.
+Interface responsiva e otimizada para navegadores modernos.
+
+## Estrutura e Lógica
+
+HTML: estrutura base da interface e elementos de input/output.
+
+CSS: estilização responsiva com layout baseado em flexbox.
+
+JavaScript:
+
+Manipulação de eventos (upload, validação e exibição).
+
+Processamento assíncrono de arquivos com FileReader.
+
+Geração dinâmica de elementos HTML via DOM API.
+
+Validação de consistência e integridade de dados.
 
 
 ## Como Usar
@@ -31,16 +47,14 @@ A lista será atualizada automaticamente após cada ação.
 (Futuro) Possibilidade de exportar a lista final ou integrá-la com outros sistemas.
 
 
-##Formato da Planilha
+## Formato da Planilha
 
-A planilha deve conter pelo menos uma coluna com os seguintes dados:
-
-Nome do Aluno
-Ana Souza
-João Pedro
-Maria Lima
-
-Outras colunas (como e-mail, turma, etc.) podem ser adicionadas conforme a personalização do projeto.
+A planilha deve conter, no mínimo, uma coluna denominada Nome do Aluno, podendo incluir campos adicionais como e-mail, turma e matrícula.
+| Nome do Aluno | E-mail                                    | Turma |
+| ------------- | ----------------------------------------- | ----- |
+| Ana Souza     | [ana@email.com](mailto:ana@email.com)     | 1A    |
+| João Pedro    | [joao@email.com](mailto:joao@email.com)   | 1B    |
+| Maria Lima    | [maria@email.com](mailto:maria@email.com) | 2A    |
 
 ## Acesso ao Projeto
 
@@ -49,8 +63,16 @@ Você pode acessar o site online aqui:
 
 ## Tecnologias Utilizadas
 
-HTML
+Tecnologias Utilizadas
 
-CSS
+HTML5
 
-JavaScript (puro)
+CSS3
+
+JavaScript (Vanilla)
+
+SheetJS (biblioteca XLSX.js)
+_____________________________________________________
+
+Made by: Letícia de Almeida Rocha
+♡‧₊ ୨ৎ
