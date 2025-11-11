@@ -72,7 +72,7 @@ CSS3
 JavaScript (Vanilla)
 
 SheetJS (biblioteca XLSX.js)
-_____________________________________________________
+
 
 Made by: Letícia de Almeida Rocha
 ## ♡‧₊ ୨ৎ
