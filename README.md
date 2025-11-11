@@ -45,7 +45,7 @@ Outras colunas (como e-mail, turma, etc.) podem ser adicionadas conforme a perso
 ## Acesso ao Projeto
 
 Você pode acessar o site online aqui:
-🔗 https://leticialrocha.github.io/projetoCadastroAlunos
+🔗 https://leticialrocha.github.io/Layout-SENAI
 
 ## Tecnologias Utilizadas
 
